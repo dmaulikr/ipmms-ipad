@@ -1,0 +1,72 @@
+//
+//  defaults.h
+//  iPMMS_iPad
+//
+//  Created by Imac DOM on 7/1/12.
+//`  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#define HO_URL @"http://194.170.6.30/"
+//#define MAIN_URL @"http://194.170.6.30/"
+//#define HO_URL @"http://192.168.1.8/"
+#define WS_ENV @"GYMWS"
+#define NO_OF_DAYS_FOR_LINECHART 120
+#define M_PI        3.14159265358979323846264338327950288   /* pi */
+#define M_PI_BY_2      1.57079632679489661923132169163975144   /* pi/2 */
+#define M_PI_BY_4      0.785398163397448309615660845819875721  /* pi/4 */
+#define kLeftMargin				20.0
+#define kTopMargin				20.0
+#define kRightMargin			20.0
+#define kTweenMargin			10.0
+#define kTextFieldHeight		30.0
+#define kToolbarHeight          48
+
+#define MEMBERSLIST_URL @"/memberlist.asmx?op=MembersList"
+#define LOGIN_URL @"/usersecurity.asmx?op=userLogin"
+#define NEWBARCODE_URL @"/memberlist.asmx?op=NewBarcodeToMember"
+#define PLANS_URL @"/memberlist.asmx?op=PlansList"
+#define NATIONALITIES_URL @"/memberlist.asmx?op=NationalitiesList"
+#define MEMBERDATA_URL @"/memberlist.asmx?op=MemberData"
+#define MEMBERADDUPDATE_URL @"/memberlist.asmx?op=addUpdateMemberData"
+#define FEESDATA_URL @"/memberlist.asmx?op=FeesData"
+#define MEMBERPLANDATA_URL @"/memberlist.asmx?op=GymMemberPlan"
+#define LOCATIONS_URL @"/memberlist.asmx?op=LocationsData"
+#define BILLCYCLES_URL @"/memberlist.asmx?op=getBillCyclesList"
+#define MEMBERPLANADDUPDATE_URL @"/memberlist.asmx?op=addUpdateMemberPlanData"
+#define GETMEMBERPLANDATA_URL @"/memberlist.asmx?op=getMemberPlanData"
+#define GETMEMBERTRANSLIST_URL @"/memberlist.asmx?op=getMemberTransactionsList"
+#define GETMEMBERTRANSDATA_URL @"/memberlist.asmx?op=getCollectioandPendingItems"
+#define GETBANKNAMESLIST_URL @"/memberlist.asmx?op=getBankNamesList"
+#define MEMBERTRANSADDUPDATE_URL @"/memberlist.asmx?op=addUpdateMemberTransData"
+#define MEMBERNOTESLIST_URL @"/memberlist.asmx?op=GymMemberNotes"
+#define GETGENCONSTANTSLIST_URL @"/memberlist.asmx?op=getGenConstantsList"
+#define MEMBERNOTESADDUPDATE_URL @"/memberlist.asmx?op=addUpdateMemberNotesData"
+#define TERMINATEMEMBERPLAN_URL @"/memberlist.asmx?op=terminateMemberPlan"
+#define MEMBERREFUNDSLIST_URL @"/memberlist.asmx?op=GymMemberRefunds"
+#define TERMINATEDCONTRACTSLIST_URL @"/memberlist.asmx?op=GymMbTerminatedPlan"
+#define MEMBERREFUNDADDUPDATE_URL @"/memberlist.asmx?op=addUpdateMemberRefund"
+#define MEMBERREFUNDDATA_URL @"/memberlist.asmx?op=getGymMemberRefundData"
+
+#define MEMBERREFUND_XML @"<REFUNDDATA><REFUNDID>%@</REFUNDID><REFUNDNO>%@</REFUNDNO><REFUNDDATE>%@</REFUNDDATE><MEMBERPLANID>%d</MEMBERPLANID><NOTES>%@</NOTES><CONTRACTAMOUNT>%@</CONTRACTAMOUNT><RECEIVEDAMOUNT>%@</RECEIVEDAMOUNT><REFUNDAMOUNT>%@</REFUNDAMOUNT></REFUNDDATA>"
+
+#define MEMBERNOTES_XML @"<NOTESDATA><MEMBERNOTESID>%d</MEMBERNOTESID><MEMBERID>%d</MEMBERID><NOTES>%@</NOTES><USERCODE>%@</USERCODE><STARTDATE>%@</STARTDATE><ENDDATE>%@</ENDDATE><NOTESCODE>%@</NOTESCODE><NOTESTYPE>%d</NOTESTYPE><SENDTOALL>%d</SENDTOALL><ENTRYDATE>%@</ENTRYDATE></NOTESDATA>"
+
+#define MEMBERDATA_XML @"<MEMBERDATA><MEMBERID>%@</MEMBERID><BARCODE>%@</BARCODE><FIRSTNAME>%@</FIRSTNAME><LASTNAME>%@</LASTNAME><AGREEMENTREF>%@</AGREEMENTREF><ADDRESS1>%@</ADDRESS1><ADDRESS2>%@</ADDRESS2><CITY>%@</CITY><EMIRATE>%@</EMIRATE><POSTCODE>%@</POSTCODE><HOMEPHONE>%@</HOMEPHONE><MOBILE>%@</MOBILE><EMERCONTACT>%@</EMERCONTACT><EMAIL>%@</EMAIL><BIRTHDATE>%@</BIRTHDATE><CARREGNO>%@</CARREGNO><OCCUPATION>%@</OCCUPATION><EMPLOYER>%@</EMPLOYER><BILLINGNAME>%@</BILLINGNAME><WORKPHONE>%@</WORKPHONE><WPEXTEN>%@</WPEXTEN><GENDER>%d</GENDER><EMERPHONE>%@</EMERPHONE><MBRSVCLOGIN>%@</MBRSVCLOGIN><MBRSVCPWD>%@</MBRSVCPWD><NATIONALITYID>%d</NATIONALITYID><USERCODE>%@</USERCODE><LOCATIONID>%d</LOCATIONID></MEMBERDATA>"
+
+#define MEMBERPLAN_XML @"<CONTRACT><MEMBERPLANID>%@</MEMBERPLANID><MEMBERID>%@</MEMBERID><ENTRYNO>%@</ENTRYNO><ENTRYDATE>%@</ENTRYDATE><ISRENEWAL>%d</ISRENEWAL><BILLCYCLEID>%d</BILLCYCLEID><EFFECTIVEDATE>%@</EFFECTIVEDATE><ENDDATE>%@</ENDDATE><TOTALAMOUNT>%f</TOTALAMOUNT><PLANID>%d</PLANID><INSTALLMENTS>%d</INSTALLMENTS><INSTAMOUNT>0</INSTAMOUNT><FIRSTDUEDATE>%@</FIRSTDUEDATE></CONTRACT>"
+
+#define MEMBERTRANSMAS_XML @"<MASTER><ENTRYID>%d</ENTRYID><ENTRYNO>%@</ENTRYNO><ENTRYDATE>%@</ENTRYDATE><MEMBERID>%d</MEMBERID><PAIDAMOUNT>%@</PAIDAMOUNT><NOTES>%@</NOTES><TRANSTYPE>%@</TRANSTYPE><PAYMODE>%d</PAYMODE><CHEQUENO>%@</CHEQUENO><CHEQUEDATE>%@</CHEQUEDATE><BANKID>%d</BANKID></MASTER>"
+
+#define MEMBERTRANSDET_XML @"<DETAIL><ENTRYDETID>%d</ENTRYDETID><MBRPLANSCHEID>%d</MBRPLANSCHEID><ACTUALAMT>%@</ACTUALAMT><PENDINGAMT>%@</PENDINGAMT><ADJUSTEDAMT>%@</ADJUSTEDAMT></DETAIL>"
+
+#define MEMBERPLANFEE_XML @"<PLANFEE><MEMBERPLANFEEID>%@</MEMBERPLANFEEID><FEESID>%@</FEESID><FEEAMOUNT>%@</FEEAMOUNT></PLANFEE>"
+
+#define MEMBERPLANPAY_XML @"<PLANPAY><MEMBERPLANPAYID>%@</MEMBERPLANPAYID><ONDATE>%@</ONDATE><PAYAMOUNT>%@</PAYAMOUNT></PLANPAY>"
+
+typedef void (^METHODCALLBACK) (NSDictionary*);
+
+@protocol defaults <NSObject>
+
+@end

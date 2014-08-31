@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0110825E19B327F2009619E5 /* bankSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110825519B327F2009619E5 /* bankSearch.m */; };
+		0110825F19B327F2009619E5 /* billCycleSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110825719B327F2009619E5 /* billCycleSearch.m */; };
+		0110826019B327F2009619E5 /* contractSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110825919B327F2009619E5 /* contractSearch.m */; };
+		0110826119B327F2009619E5 /* feesSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110825B19B327F2009619E5 /* feesSearch.m */; };
+		0110826219B327F2009619E5 /* notesTypeSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110825D19B327F2009619E5 /* notesTypeSearch.m */; };
+		0110828C19B32803009619E5 /* feesDataEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826419B32802009619E5 /* feesDataEntry.m */; };
+		0110828D19B32803009619E5 /* memberNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826619B32802009619E5 /* memberNotes.m */; };
+		0110828E19B32803009619E5 /* memberNotesEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826819B32802009619E5 /* memberNotesEntry.m */; };
+		0110828F19B32803009619E5 /* memberNotesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826A19B32802009619E5 /* memberNotesList.m */; };
+		0110829019B32803009619E5 /* memberPlanEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826C19B32802009619E5 /* memberPlanEntry.m */; };
+		0110829119B32803009619E5 /* memberPlanObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110826E19B32802009619E5 /* memberPlanObjects.m */; };
+		0110829219B32803009619E5 /* memberPlans.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827019B32802009619E5 /* memberPlans.m */; };
+		0110829319B32803009619E5 /* memberPlansList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827219B32802009619E5 /* memberPlansList.m */; };
+		0110829419B32803009619E5 /* memberPlanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827419B32802009619E5 /* memberPlanView.m */; };
+		0110829519B32803009619E5 /* memberPlanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0110827519B32802009619E5 /* memberPlanView.xib */; };
+		0110829619B32803009619E5 /* memberProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827719B32802009619E5 /* memberProfile.m */; };
+		0110829719B32803009619E5 /* memberRefundObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827919B32802009619E5 /* memberRefundObjects.m */; };
+		0110829819B32803009619E5 /* memberRefundsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827B19B32802009619E5 /* memberRefundsList.m */; };
+		0110829919B32803009619E5 /* memberTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827D19B32802009619E5 /* memberTransaction.m */; };
+		0110829A19B32803009619E5 /* memberTransactionPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110827F19B32802009619E5 /* memberTransactionPopover.m */; };
+		0110829B19B32803009619E5 /* memberTransList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828119B32802009619E5 /* memberTransList.m */; };
+		0110829C19B32803009619E5 /* memberTransView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828319B32802009619E5 /* memberTransView.m */; };
+		0110829D19B32803009619E5 /* membrPlanEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828519B32802009619E5 /* membrPlanEntry.m */; };
+		0110829E19B32803009619E5 /* memNotesObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828719B32802009619E5 /* memNotesObjects.m */; };
+		0110829F19B32803009619E5 /* memTransObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828919B32802009619E5 /* memTransObjects.m */; };
+		011082A019B32803009619E5 /* payScheduleEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0110828B19B32803009619E5 /* payScheduleEntry.m */; };
+		011082A319B32830009619E5 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 011082A119B32830009619E5 /* refresh.png */; };
+		011082A419B32830009619E5 /* regen.png in Resources */ = {isa = PBXBuildFile; fileRef = 011082A219B32830009619E5 /* regen.png */; };
+		011082A819B32840009619E5 /* addiconnew1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 011082A519B32840009619E5 /* addiconnew1.PNG */; };
+		011082A919B32840009619E5 /* deleteicon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 011082A619B32840009619E5 /* deleteicon.JPG */; };
+		011082AA19B32840009619E5 /* editicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 011082A719B32840009619E5 /* editicon.jpg */; };
+		011082AC19B3287E009619E5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 011082AB19B3287E009619E5 /* Entitlements.plist */; };
+		6382702B15B6BC5E007FCF9F /* locationSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6382702A15B6BC5E007FCF9F /* locationSearch.m */; };
+		6382703215B6DD29007FCF9F /* newlogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6382703115B6DD29007FCF9F /* newlogin.png */; };
+		6382703415B6DD36007FCF9F /* pwdbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6382703315B6DD35007FCF9F /* pwdbg.png */; };
+		638415FF15CC06D5009DD267 /* memberBaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638415FE15CC06D4009DD267 /* memberBaseController.xib */; };
+		6384160315CC0C2E009DD267 /* memberRefunds.m in Sources */ = {isa = PBXBuildFile; fileRef = 6384160215CC0C2D009DD267 /* memberRefunds.m */; };
+		6385C1DC15CABC2C00BCF3A5 /* memberRefundEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385C1DB15CABC2A00BCF3A5 /* memberRefundEntry.m */; };
+		8888A63815A03D170017BD20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8888A63715A03D170017BD20 /* UIKit.framework */; };
+		8888A63A15A03D170017BD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8888A63915A03D170017BD20 /* Foundation.framework */; };
+		8888A63C15A03D170017BD20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8888A63B15A03D170017BD20 /* CoreGraphics.framework */; };
+		8888A64215A03D170017BD20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8888A64015A03D170017BD20 /* InfoPlist.strings */; };
+		8888A64415A03D170017BD20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A64315A03D170017BD20 /* main.m */; };
+		8888A64815A03D170017BD20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A64715A03D170017BD20 /* AppDelegate.m */; };
+		8888A66815A04E430017BD20 /* baseSearchForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A66715A04E430017BD20 /* baseSearchForm.m */; };
+		8888A66B15A04EB60017BD20 /* getSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A66A15A04EB60017BD20 /* getSearch.xib */; };
+		8888A67215A04F040017BD20 /* memberSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A67115A04F040017BD20 /* memberSearch.m */; };
+		8888A67615A059250017BD20 /* gymWSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A67515A059240017BD20 /* gymWSProxy.m */; };
+		8888A68615A065C00017BD20 /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A67E15A065C00017BD20 /* login.m */; };
+		8888A68715A065C00017BD20 /* login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A67F15A065C00017BD20 /* login.xib */; };
+		8888A68815A065C00017BD20 /* signIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A68115A065C00017BD20 /* signIn.m */; };
+		8888A68915A065C00017BD20 /* signIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A68215A065C00017BD20 /* signIn.xib */; };
+		8888A68A15A065C00017BD20 /* signOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A68415A065C00017BD20 /* signOut.m */; };
+		8888A68B15A065C00017BD20 /* signOut.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A68515A065C00017BD20 /* signOut.xib */; };
+		8888A69115A06AF10017BD20 /* LOGIN.png in Resources */ = {isa = PBXBuildFile; fileRef = 8888A68D15A06AF10017BD20 /* LOGIN.png */; };
+		8888A69215A06AF10017BD20 /* LOGIN1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8888A68E15A06AF10017BD20 /* LOGIN1.png */; };
+		8888A6A715A2B56C0017BD20 /* memberController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A6A515A2B56C0017BD20 /* memberController.m */; };
+		8888A6A815A2B56C0017BD20 /* memberController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A6A615A2B56C0017BD20 /* memberController.xib */; };
+		8888A6AC15A2B6390017BD20 /* memberTransController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A6AA15A2B6390017BD20 /* memberTransController.m */; };
+		8888A6AD15A2B6390017BD20 /* memberTransController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888A6AB15A2B6390017BD20 /* memberTransController.xib */; };
+		8888A6C415A2D7D80017BD20 /* memberprofile.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8888A6C215A2D7D80017BD20 /* memberprofile.PNG */; };
+		8888A6C815A31BB00017BD20 /* memberBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A6C715A31BAE0017BD20 /* memberBaseController.m */; };
+		8888A6CB15A4265C0017BD20 /* memberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A6CA15A426590017BD20 /* memberView.m */; };
+		8888A6CE15A4287B0017BD20 /* memberObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888A6CD15A4287A0017BD20 /* memberObjects.m */; };
+		8888CDB515A4660D00BB12E7 /* memberBaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8888CDB415A4660D00BB12E7 /* memberBaseView.xib */; };
+		8888CDC015A57FDC00BB12E7 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = 8888CDBF15A57FDC00BB12E7 /* s.png */; };
+		8888CDCB15A5997E00BB12E7 /* gymrichlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8888CDCA15A5997E00BB12E7 /* gymrichlogo.jpg */; };
+		8888CDD915A954A800BB12E7 /* memprof.png in Resources */ = {isa = PBXBuildFile; fileRef = 8888CDD815A954A800BB12E7 /* memprof.png */; };
+		8888CDDB15A9647800BB12E7 /* newmemprof1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8888CDDA15A9647800BB12E7 /* newmemprof1.png */; };
+		88AA279A15AEAA4200161D24 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AA279915AEAA4200161D24 /* Base64.m */; };
+		88AA279C15AECDA400161D24 /* NoPhoto2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88AA279B15AECDA400161D24 /* NoPhoto2.png */; };
+		88ACE1B015A987D100EB2CD8 /* refresh.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1AF15A987D100EB2CD8 /* refresh.jpeg */; };
+		88ACE1BB15AACFA800EB2CD8 /* Add.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1BA15AACFA800EB2CD8 /* Add.gif */; };
+		88ACE1BD15AAD19700EB2CD8 /* wg5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1BC15AAD19700EB2CD8 /* wg5.gif */; };
+		88ACE1C315AB109A00EB2CD8 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1C215AB109A00EB2CD8 /* Add.png */; };
+		88ACE1C615ABE45500EB2CD8 /* emirateSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACE1C515ABE45400EB2CD8 /* emirateSearch.m */; };
+		88ACE1CC15AC0B9A00EB2CD8 /* glossy_black_button_icon_079.png in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1CB15AC0B9A00EB2CD8 /* glossy_black_button_icon_079.png */; };
+		88ACE1D015AC104900EB2CD8 /* adb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1CD15AC104800EB2CD8 /* adb.JPG */; };
+		88ACE1D115AC104900EB2CD8 /* ajm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1CE15AC104800EB2CD8 /* ajm.jpg */; };
+		88ACE1D215AC104900EB2CD8 /* dxb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1CF15AC104800EB2CD8 /* dxb.JPG */; };
+		88ACE1D415AC105700EB2CD8 /* fuj.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1D315AC105600EB2CD8 /* fuj.JPG */; };
+		88ACE1D615AC106100EB2CD8 /* rak.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1D515AC106100EB2CD8 /* rak.JPG */; };
+		88ACE1D815AC106E00EB2CD8 /* shj.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1D715AC106E00EB2CD8 /* shj.JPG */; };
+		88ACE1DA15AC107C00EB2CD8 /* uaq.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88ACE1D915AC107C00EB2CD8 /* uaq.JPG */; };
+		88ACE1E115AC33B100EB2CD8 /* planSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACE1E015AC33B100EB2CD8 /* planSearch.m */; };
+		88ACE1E415AC477300EB2CD8 /* nationalitySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ACE1E315AC477300EB2CD8 /* nationalitySearch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0110825419B327F2009619E5 /* bankSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bankSearch.h; sourceTree = "<group>"; };
+		0110825519B327F2009619E5 /* bankSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bankSearch.m; sourceTree = "<group>"; };
+		0110825619B327F2009619E5 /* billCycleSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = billCycleSearch.h; sourceTree = "<group>"; };
+		0110825719B327F2009619E5 /* billCycleSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = billCycleSearch.m; sourceTree = "<group>"; };
+		0110825819B327F2009619E5 /* contractSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contractSearch.h; sourceTree = "<group>"; };
+		0110825919B327F2009619E5 /* contractSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contractSearch.m; sourceTree = "<group>"; };
+		0110825A19B327F2009619E5 /* feesSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feesSearch.h; sourceTree = "<group>"; };
+		0110825B19B327F2009619E5 /* feesSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feesSearch.m; sourceTree = "<group>"; };
+		0110825C19B327F2009619E5 /* notesTypeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notesTypeSearch.h; sourceTree = "<group>"; };
+		0110825D19B327F2009619E5 /* notesTypeSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notesTypeSearch.m; sourceTree = "<group>"; };
+		0110826319B32802009619E5 /* feesDataEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feesDataEntry.h; sourceTree = "<group>"; };
+		0110826419B32802009619E5 /* feesDataEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feesDataEntry.m; sourceTree = "<group>"; };
+		0110826519B32802009619E5 /* memberNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberNotes.h; sourceTree = "<group>"; };
+		0110826619B32802009619E5 /* memberNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberNotes.m; sourceTree = "<group>"; };
+		0110826719B32802009619E5 /* memberNotesEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberNotesEntry.h; sourceTree = "<group>"; };
+		0110826819B32802009619E5 /* memberNotesEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberNotesEntry.m; sourceTree = "<group>"; };
+		0110826919B32802009619E5 /* memberNotesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberNotesList.h; sourceTree = "<group>"; };
+		0110826A19B32802009619E5 /* memberNotesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberNotesList.m; sourceTree = "<group>"; };
+		0110826B19B32802009619E5 /* memberPlanEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberPlanEntry.h; sourceTree = "<group>"; };
+		0110826C19B32802009619E5 /* memberPlanEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberPlanEntry.m; sourceTree = "<group>"; };
+		0110826D19B32802009619E5 /* memberPlanObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberPlanObjects.h; sourceTree = "<group>"; };
+		0110826E19B32802009619E5 /* memberPlanObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberPlanObjects.m; sourceTree = "<group>"; };
+		0110826F19B32802009619E5 /* memberPlans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberPlans.h; sourceTree = "<group>"; };
+		0110827019B32802009619E5 /* memberPlans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberPlans.m; sourceTree = "<group>"; };
+		0110827119B32802009619E5 /* memberPlansList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberPlansList.h; sourceTree = "<group>"; };
+		0110827219B32802009619E5 /* memberPlansList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberPlansList.m; sourceTree = "<group>"; };
+		0110827319B32802009619E5 /* memberPlanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberPlanView.h; sourceTree = "<group>"; };
+		0110827419B32802009619E5 /* memberPlanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberPlanView.m; sourceTree = "<group>"; };
+		0110827519B32802009619E5 /* memberPlanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memberPlanView.xib; sourceTree = "<group>"; };
+		0110827619B32802009619E5 /* memberProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberProfile.h; sourceTree = "<group>"; };
+		0110827719B32802009619E5 /* memberProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberProfile.m; sourceTree = "<group>"; };
+		0110827819B32802009619E5 /* memberRefundObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberRefundObjects.h; sourceTree = "<group>"; };
+		0110827919B32802009619E5 /* memberRefundObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberRefundObjects.m; sourceTree = "<group>"; };
+		0110827A19B32802009619E5 /* memberRefundsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberRefundsList.h; sourceTree = "<group>"; };
+		0110827B19B32802009619E5 /* memberRefundsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberRefundsList.m; sourceTree = "<group>"; };
+		0110827C19B32802009619E5 /* memberTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberTransaction.h; sourceTree = "<group>"; };
+		0110827D19B32802009619E5 /* memberTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberTransaction.m; sourceTree = "<group>"; };
+		0110827E19B32802009619E5 /* memberTransactionPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberTransactionPopover.h; sourceTree = "<group>"; };
+		0110827F19B32802009619E5 /* memberTransactionPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberTransactionPopover.m; sourceTree = "<group>"; };
+		0110828019B32802009619E5 /* memberTransList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberTransList.h; sourceTree = "<group>"; };
+		0110828119B32802009619E5 /* memberTransList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberTransList.m; sourceTree = "<group>"; };
+		0110828219B32802009619E5 /* memberTransView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberTransView.h; sourceTree = "<group>"; };
+		0110828319B32802009619E5 /* memberTransView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberTransView.m; sourceTree = "<group>"; };
+		0110828419B32802009619E5 /* membrPlanEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = membrPlanEntry.h; sourceTree = "<group>"; };
+		0110828519B32802009619E5 /* membrPlanEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = membrPlanEntry.m; sourceTree = "<group>"; };
+		0110828619B32802009619E5 /* memNotesObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memNotesObjects.h; sourceTree = "<group>"; };
+		0110828719B32802009619E5 /* memNotesObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memNotesObjects.m; sourceTree = "<group>"; };
+		0110828819B32802009619E5 /* memTransObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memTransObjects.h; sourceTree = "<group>"; };
+		0110828919B32802009619E5 /* memTransObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memTransObjects.m; sourceTree = "<group>"; };
+		0110828A19B32803009619E5 /* payScheduleEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payScheduleEntry.h; sourceTree = "<group>"; };
+		0110828B19B32803009619E5 /* payScheduleEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payScheduleEntry.m; sourceTree = "<group>"; };
+		011082A119B32830009619E5 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		011082A219B32830009619E5 /* regen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regen.png; sourceTree = "<group>"; };
+		011082A519B32840009619E5 /* addiconnew1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addiconnew1.PNG; sourceTree = "<group>"; };
+		011082A619B32840009619E5 /* deleteicon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deleteicon.JPG; sourceTree = "<group>"; };
+		011082A719B32840009619E5 /* editicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = editicon.jpg; sourceTree = "<group>"; };
+		011082AB19B3287E009619E5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		6382702915B6BC5E007FCF9F /* locationSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locationSearch.h; sourceTree = "<group>"; };
+		6382702A15B6BC5E007FCF9F /* locationSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = locationSearch.m; sourceTree = "<group>"; };
+		6382703115B6DD29007FCF9F /* newlogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newlogin.png; sourceTree = "<group>"; };
+		6382703315B6DD35007FCF9F /* pwdbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pwdbg.png; sourceTree = "<group>"; };
+		638415FE15CC06D4009DD267 /* memberBaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memberBaseController.xib; sourceTree = "<group>"; };
+		6384160115CC0C2C009DD267 /* memberRefunds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberRefunds.h; sourceTree = "<group>"; };
+		6384160215CC0C2D009DD267 /* memberRefunds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberRefunds.m; sourceTree = "<group>"; };
+		6385C1DA15CABC2800BCF3A5 /* memberRefundEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberRefundEntry.h; sourceTree = "<group>"; };
+		6385C1DB15CABC2A00BCF3A5 /* memberRefundEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberRefundEntry.m; sourceTree = "<group>"; };
+		8888A63315A03D170017BD20 /* iPMMS_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPMMS_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8888A63715A03D170017BD20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8888A63915A03D170017BD20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8888A63B15A03D170017BD20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8888A63F15A03D170017BD20 /* iPMMS_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPMMS_iPad-Info.plist"; sourceTree = "<group>"; };
+		8888A64115A03D170017BD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8888A64315A03D170017BD20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8888A64515A03D170017BD20 /* iPMMS_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPMMS_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		8888A64615A03D170017BD20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8888A64715A03D170017BD20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8888A66515A04E420017BD20 /* baseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseProtocol.h; sourceTree = "<group>"; };
+		8888A66615A04E420017BD20 /* baseSearchForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseSearchForm.h; sourceTree = "<group>"; };
+		8888A66715A04E430017BD20 /* baseSearchForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseSearchForm.m; sourceTree = "<group>"; };
+		8888A66A15A04EB60017BD20 /* getSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = getSearch.xib; sourceTree = "<group>"; };
+		8888A67015A04F040017BD20 /* memberSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberSearch.h; sourceTree = "<group>"; };
+		8888A67115A04F040017BD20 /* memberSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberSearch.m; sourceTree = "<group>"; };
+		8888A67315A057000017BD20 /* defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defaults.h; sourceTree = "<group>"; };
+		8888A67415A059240017BD20 /* gymWSProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gymWSProxy.h; sourceTree = "<group>"; };
+		8888A67515A059240017BD20 /* gymWSProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gymWSProxy.m; sourceTree = "<group>"; };
+		8888A67D15A065C00017BD20 /* login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
+		8888A67E15A065C00017BD20 /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login.m; sourceTree = "<group>"; };
+		8888A67F15A065C00017BD20 /* login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = login.xib; sourceTree = "<group>"; };
+		8888A68015A065C00017BD20 /* signIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signIn.h; sourceTree = "<group>"; };
+		8888A68115A065C00017BD20 /* signIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signIn.m; sourceTree = "<group>"; };
+		8888A68215A065C00017BD20 /* signIn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signIn.xib; sourceTree = "<group>"; };
+		8888A68315A065C00017BD20 /* signOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signOut.h; sourceTree = "<group>"; };
+		8888A68415A065C00017BD20 /* signOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signOut.m; sourceTree = "<group>"; };
+		8888A68515A065C00017BD20 /* signOut.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signOut.xib; sourceTree = "<group>"; };
+		8888A68D15A06AF10017BD20 /* LOGIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGIN.png; sourceTree = "<group>"; };
+		8888A68E15A06AF10017BD20 /* LOGIN1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGIN1.png; sourceTree = "<group>"; };
+		8888A6A415A2B56C0017BD20 /* memberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberController.h; sourceTree = "<group>"; };
+		8888A6A515A2B56C0017BD20 /* memberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberController.m; sourceTree = "<group>"; };
+		8888A6A615A2B56C0017BD20 /* memberController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memberController.xib; sourceTree = "<group>"; };
+		8888A6A915A2B6390017BD20 /* memberTransController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberTransController.h; sourceTree = "<group>"; };
+		8888A6AA15A2B6390017BD20 /* memberTransController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberTransController.m; sourceTree = "<group>"; };
+		8888A6AB15A2B6390017BD20 /* memberTransController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memberTransController.xib; sourceTree = "<group>"; };
+		8888A6C215A2D7D80017BD20 /* memberprofile.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memberprofile.PNG; sourceTree = "<group>"; };
+		8888A6C515A316CA0017BD20 /* memberFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberFunctions.h; sourceTree = "<group>"; };
+		8888A6C615A31BAC0017BD20 /* memberBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberBaseController.h; sourceTree = "<group>"; };
+		8888A6C715A31BAE0017BD20 /* memberBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberBaseController.m; sourceTree = "<group>"; };
+		8888A6C915A426550017BD20 /* memberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberView.h; sourceTree = "<group>"; };
+		8888A6CA15A426590017BD20 /* memberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberView.m; sourceTree = "<group>"; };
+		8888A6CC15A428750017BD20 /* memberObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memberObjects.h; sourceTree = "<group>"; };
+		8888A6CD15A4287A0017BD20 /* memberObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memberObjects.m; sourceTree = "<group>"; };
+		8888CDB415A4660D00BB12E7 /* memberBaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = memberBaseView.xib; sourceTree = "<group>"; };
+		8888CDBF15A57FDC00BB12E7 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		8888CDCA15A5997E00BB12E7 /* gymrichlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gymrichlogo.jpg; sourceTree = "<group>"; };
+		8888CDD815A954A800BB12E7 /* memprof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memprof.png; sourceTree = "<group>"; };
+		8888CDDA15A9647800BB12E7 /* newmemprof1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newmemprof1.png; sourceTree = "<group>"; };
+		88AA279815AEAA4200161D24 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		88AA279915AEAA4200161D24 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		88AA279B15AECDA400161D24 /* NoPhoto2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoPhoto2.png; sourceTree = "<group>"; };
+		88ACE1AF15A987D100EB2CD8 /* refresh.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh.jpeg; sourceTree = "<group>"; };
+		88ACE1BA15AACFA800EB2CD8 /* Add.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Add.gif; sourceTree = "<group>"; };
+		88ACE1BC15AAD19700EB2CD8 /* wg5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wg5.gif; sourceTree = "<group>"; };
+		88ACE1C215AB109A00EB2CD8 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		88ACE1C415ABE45400EB2CD8 /* emirateSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emirateSearch.h; sourceTree = "<group>"; };
+		88ACE1C515ABE45400EB2CD8 /* emirateSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = emirateSearch.m; sourceTree = "<group>"; };
+		88ACE1CB15AC0B9A00EB2CD8 /* glossy_black_button_icon_079.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glossy_black_button_icon_079.png; sourceTree = "<group>"; };
+		88ACE1CD15AC104800EB2CD8 /* adb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adb.JPG; sourceTree = "<group>"; };
+		88ACE1CE15AC104800EB2CD8 /* ajm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ajm.jpg; sourceTree = "<group>"; };
+		88ACE1CF15AC104800EB2CD8 /* dxb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dxb.JPG; sourceTree = "<group>"; };
+		88ACE1D315AC105600EB2CD8 /* fuj.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuj.JPG; sourceTree = "<group>"; };
+		88ACE1D515AC106100EB2CD8 /* rak.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rak.JPG; sourceTree = "<group>"; };
+		88ACE1D715AC106E00EB2CD8 /* shj.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shj.JPG; sourceTree = "<group>"; };
+		88ACE1D915AC107C00EB2CD8 /* uaq.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uaq.JPG; sourceTree = "<group>"; };
+		88ACE1DF15AC33B100EB2CD8 /* planSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planSearch.h; sourceTree = "<group>"; };
+		88ACE1E015AC33B100EB2CD8 /* planSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = planSearch.m; sourceTree = "<group>"; };
+		88ACE1E215AC477200EB2CD8 /* nationalitySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nationalitySearch.h; sourceTree = "<group>"; };
+		88ACE1E315AC477300EB2CD8 /* nationalitySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nationalitySearch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8888A63015A03D170017BD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8888A63815A03D170017BD20 /* UIKit.framework in Frameworks */,
+				8888A63A15A03D170017BD20 /* Foundation.framework in Frameworks */,
+				8888A63C15A03D170017BD20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8888A62815A03D170017BD20 = {
+			isa = PBXGroup;
+			children = (
+				011082AB19B3287E009619E5 /* Entitlements.plist */,
+				8888A63D15A03D170017BD20 /* iPMMS_iPad */,
+				8888A63615A03D170017BD20 /* Frameworks */,
+				8888A63415A03D170017BD20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8888A63415A03D170017BD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8888A63315A03D170017BD20 /* iPMMS_iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8888A63615A03D170017BD20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8888A63715A03D170017BD20 /* UIKit.framework */,
+				8888A63915A03D170017BD20 /* Foundation.framework */,
+				8888A63B15A03D170017BD20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8888A63D15A03D170017BD20 /* iPMMS_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8888A6A315A2B5120017BD20 /* Member */,
+				8888A68C15A06AEF0017BD20 /* images */,
+				8888A67C15A065BF0017BD20 /* security */,
+				8888A66915A04EAA0017BD20 /* SharedItems */,
+				8888A65E15A04A560017BD20 /* Utilities */,
+				8888A64615A03D170017BD20 /* AppDelegate.h */,
+				8888A64715A03D170017BD20 /* AppDelegate.m */,
+				8888A63E15A03D170017BD20 /* Supporting Files */,
+			);
+			path = iPMMS_iPad;
+			sourceTree = "<group>";
+		};
+		8888A63E15A03D170017BD20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8888A63F15A03D170017BD20 /* iPMMS_iPad-Info.plist */,
+				8888A64015A03D170017BD20 /* InfoPlist.strings */,
+				8888A64315A03D170017BD20 /* main.m */,
+				8888A64515A03D170017BD20 /* iPMMS_iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8888A65E15A04A560017BD20 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88AA279815AEAA4200161D24 /* Base64.h */,
+				88AA279915AEAA4200161D24 /* Base64.m */,
+				8888A66A15A04EB60017BD20 /* getSearch.xib */,
+				8888A66515A04E420017BD20 /* baseProtocol.h */,
+				8888A66615A04E420017BD20 /* baseSearchForm.h */,
+				8888A66715A04E430017BD20 /* baseSearchForm.m */,
+				8888A67315A057000017BD20 /* defaults.h */,
+				8888A67415A059240017BD20 /* gymWSProxy.h */,
+				8888A67515A059240017BD20 /* gymWSProxy.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8888A66915A04EAA0017BD20 /* SharedItems */ = {
+			isa = PBXGroup;
+			children = (
+				0110825419B327F2009619E5 /* bankSearch.h */,
+				0110825519B327F2009619E5 /* bankSearch.m */,
+				0110825619B327F2009619E5 /* billCycleSearch.h */,
+				0110825719B327F2009619E5 /* billCycleSearch.m */,
+				0110825819B327F2009619E5 /* contractSearch.h */,
+				0110825919B327F2009619E5 /* contractSearch.m */,
+				0110825A19B327F2009619E5 /* feesSearch.h */,
+				0110825B19B327F2009619E5 /* feesSearch.m */,
+				0110825C19B327F2009619E5 /* notesTypeSearch.h */,
+				0110825D19B327F2009619E5 /* notesTypeSearch.m */,
+				8888A67015A04F040017BD20 /* memberSearch.h */,
+				8888A67115A04F040017BD20 /* memberSearch.m */,
+				88ACE1C415ABE45400EB2CD8 /* emirateSearch.h */,
+				88ACE1C515ABE45400EB2CD8 /* emirateSearch.m */,
+				88ACE1DF15AC33B100EB2CD8 /* planSearch.h */,
+				88ACE1E015AC33B100EB2CD8 /* planSearch.m */,
+				88ACE1E215AC477200EB2CD8 /* nationalitySearch.h */,
+				88ACE1E315AC477300EB2CD8 /* nationalitySearch.m */,
+				6382702915B6BC5E007FCF9F /* locationSearch.h */,
+				6382702A15B6BC5E007FCF9F /* locationSearch.m */,
+			);
+			path = SharedItems;
+			sourceTree = "<group>";
+		};
+		8888A67C15A065BF0017BD20 /* security */ = {
+			isa = PBXGroup;
+			children = (
+				8888A67D15A065C00017BD20 /* login.h */,
+				8888A67E15A065C00017BD20 /* login.m */,
+				8888A67F15A065C00017BD20 /* login.xib */,
+				8888A68015A065C00017BD20 /* signIn.h */,
+				8888A68115A065C00017BD20 /* signIn.m */,
+				8888A68215A065C00017BD20 /* signIn.xib */,
+				8888A68315A065C00017BD20 /* signOut.h */,
+				8888A68415A065C00017BD20 /* signOut.m */,
+				8888A68515A065C00017BD20 /* signOut.xib */,
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		8888A68C15A06AEF0017BD20 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				011082A519B32840009619E5 /* addiconnew1.PNG */,
+				011082A619B32840009619E5 /* deleteicon.JPG */,
+				011082A719B32840009619E5 /* editicon.jpg */,
+				011082A119B32830009619E5 /* refresh.png */,
+				011082A219B32830009619E5 /* regen.png */,
+				6382703315B6DD35007FCF9F /* pwdbg.png */,
+				6382703115B6DD29007FCF9F /* newlogin.png */,
+				88AA279B15AECDA400161D24 /* NoPhoto2.png */,
+				88ACE1D915AC107C00EB2CD8 /* uaq.JPG */,
+				88ACE1D715AC106E00EB2CD8 /* shj.JPG */,
+				88ACE1D515AC106100EB2CD8 /* rak.JPG */,
+				88ACE1D315AC105600EB2CD8 /* fuj.JPG */,
+				88ACE1CD15AC104800EB2CD8 /* adb.JPG */,
+				88ACE1CE15AC104800EB2CD8 /* ajm.jpg */,
+				88ACE1CF15AC104800EB2CD8 /* dxb.JPG */,
+				88ACE1CB15AC0B9A00EB2CD8 /* glossy_black_button_icon_079.png */,
+				88ACE1C215AB109A00EB2CD8 /* Add.png */,
+				88ACE1BC15AAD19700EB2CD8 /* wg5.gif */,
+				88ACE1BA15AACFA800EB2CD8 /* Add.gif */,
+				88ACE1AF15A987D100EB2CD8 /* refresh.jpeg */,
+				8888CDDA15A9647800BB12E7 /* newmemprof1.png */,
+				8888CDD815A954A800BB12E7 /* memprof.png */,
+				8888CDCA15A5997E00BB12E7 /* gymrichlogo.jpg */,
+				8888CDBF15A57FDC00BB12E7 /* s.png */,
+				8888A6C215A2D7D80017BD20 /* memberprofile.PNG */,
+				8888A68D15A06AF10017BD20 /* LOGIN.png */,
+				8888A68E15A06AF10017BD20 /* LOGIN1.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8888A6A315A2B5120017BD20 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				0110826319B32802009619E5 /* feesDataEntry.h */,
+				0110826419B32802009619E5 /* feesDataEntry.m */,
+				0110826519B32802009619E5 /* memberNotes.h */,
+				0110826619B32802009619E5 /* memberNotes.m */,
+				0110826719B32802009619E5 /* memberNotesEntry.h */,
+				0110826819B32802009619E5 /* memberNotesEntry.m */,
+				0110826919B32802009619E5 /* memberNotesList.h */,
+				0110826A19B32802009619E5 /* memberNotesList.m */,
+				0110826B19B32802009619E5 /* memberPlanEntry.h */,
+				0110826C19B32802009619E5 /* memberPlanEntry.m */,
+				0110826D19B32802009619E5 /* memberPlanObjects.h */,
+				0110826E19B32802009619E5 /* memberPlanObjects.m */,
+				0110826F19B32802009619E5 /* memberPlans.h */,
+				0110827019B32802009619E5 /* memberPlans.m */,
+				0110827119B32802009619E5 /* memberPlansList.h */,
+				0110827219B32802009619E5 /* memberPlansList.m */,
+				0110827319B32802009619E5 /* memberPlanView.h */,
+				0110827419B32802009619E5 /* memberPlanView.m */,
+				0110827519B32802009619E5 /* memberPlanView.xib */,
+				0110827619B32802009619E5 /* memberProfile.h */,
+				0110827719B32802009619E5 /* memberProfile.m */,
+				0110827819B32802009619E5 /* memberRefundObjects.h */,
+				0110827919B32802009619E5 /* memberRefundObjects.m */,
+				0110827A19B32802009619E5 /* memberRefundsList.h */,
+				0110827B19B32802009619E5 /* memberRefundsList.m */,
+				0110827C19B32802009619E5 /* memberTransaction.h */,
+				0110827D19B32802009619E5 /* memberTransaction.m */,
+				0110827E19B32802009619E5 /* memberTransactionPopover.h */,
+				0110827F19B32802009619E5 /* memberTransactionPopover.m */,
+				0110828019B32802009619E5 /* memberTransList.h */,
+				0110828119B32802009619E5 /* memberTransList.m */,
+				0110828219B32802009619E5 /* memberTransView.h */,
+				0110828319B32802009619E5 /* memberTransView.m */,
+				0110828419B32802009619E5 /* membrPlanEntry.h */,
+				0110828519B32802009619E5 /* membrPlanEntry.m */,
+				0110828619B32802009619E5 /* memNotesObjects.h */,
+				0110828719B32802009619E5 /* memNotesObjects.m */,
+				0110828819B32802009619E5 /* memTransObjects.h */,
+				0110828919B32802009619E5 /* memTransObjects.m */,
+				0110828A19B32803009619E5 /* payScheduleEntry.h */,
+				0110828B19B32803009619E5 /* payScheduleEntry.m */,
+				8888A6A415A2B56C0017BD20 /* memberController.h */,
+				8888A6A515A2B56C0017BD20 /* memberController.m */,
+				8888A6A615A2B56C0017BD20 /* memberController.xib */,
+				8888A6A915A2B6390017BD20 /* memberTransController.h */,
+				8888A6AA15A2B6390017BD20 /* memberTransController.m */,
+				8888A6AB15A2B6390017BD20 /* memberTransController.xib */,
+				8888A6C515A316CA0017BD20 /* memberFunctions.h */,
+				8888A6C615A31BAC0017BD20 /* memberBaseController.h */,
+				8888A6C715A31BAE0017BD20 /* memberBaseController.m */,
+				8888A6C915A426550017BD20 /* memberView.h */,
+				8888A6CA15A426590017BD20 /* memberView.m */,
+				8888A6CC15A428750017BD20 /* memberObjects.h */,
+				8888A6CD15A4287A0017BD20 /* memberObjects.m */,
+				8888CDB415A4660D00BB12E7 /* memberBaseView.xib */,
+				6385C1DA15CABC2800BCF3A5 /* memberRefundEntry.h */,
+				6385C1DB15CABC2A00BCF3A5 /* memberRefundEntry.m */,
+				638415FE15CC06D4009DD267 /* memberBaseController.xib */,
+				6384160115CC0C2C009DD267 /* memberRefunds.h */,
+				6384160215CC0C2D009DD267 /* memberRefunds.m */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8888A63215A03D170017BD20 /* iPMMS_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8888A65715A03D170017BD20 /* Build configuration list for PBXNativeTarget "iPMMS_iPad" */;
+			buildPhases = (
+				8888A62F15A03D170017BD20 /* Sources */,
+				8888A63015A03D170017BD20 /* Frameworks */,
+				8888A63115A03D170017BD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPMMS_iPad;
+			productName = iPMMS_iPad;
+			productReference = 8888A63315A03D170017BD20 /* iPMMS_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8888A62A15A03D170017BD20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8888A62D15A03D170017BD20 /* Build configuration list for PBXProject "iPMMS_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8888A62815A03D170017BD20;
+			productRefGroup = 8888A63415A03D170017BD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8888A63215A03D170017BD20 /* iPMMS_iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8888A63115A03D170017BD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8888A64215A03D170017BD20 /* InfoPlist.strings in Resources */,
+				8888A66B15A04EB60017BD20 /* getSearch.xib in Resources */,
+				8888A68715A065C00017BD20 /* login.xib in Resources */,
+				011082A819B32840009619E5 /* addiconnew1.PNG in Resources */,
+				8888A68915A065C00017BD20 /* signIn.xib in Resources */,
+				8888A68B15A065C00017BD20 /* signOut.xib in Resources */,
+				8888A69115A06AF10017BD20 /* LOGIN.png in Resources */,
+				8888A69215A06AF10017BD20 /* LOGIN1.png in Resources */,
+				011082AA19B32840009619E5 /* editicon.jpg in Resources */,
+				8888A6A815A2B56C0017BD20 /* memberController.xib in Resources */,
+				8888A6AD15A2B6390017BD20 /* memberTransController.xib in Resources */,
+				8888A6C415A2D7D80017BD20 /* memberprofile.PNG in Resources */,
+				8888CDB515A4660D00BB12E7 /* memberBaseView.xib in Resources */,
+				8888CDC015A57FDC00BB12E7 /* s.png in Resources */,
+				8888CDCB15A5997E00BB12E7 /* gymrichlogo.jpg in Resources */,
+				011082A419B32830009619E5 /* regen.png in Resources */,
+				011082A319B32830009619E5 /* refresh.png in Resources */,
+				8888CDD915A954A800BB12E7 /* memprof.png in Resources */,
+				8888CDDB15A9647800BB12E7 /* newmemprof1.png in Resources */,
+				88ACE1B015A987D100EB2CD8 /* refresh.jpeg in Resources */,
+				88ACE1BB15AACFA800EB2CD8 /* Add.gif in Resources */,
+				88ACE1BD15AAD19700EB2CD8 /* wg5.gif in Resources */,
+				88ACE1C315AB109A00EB2CD8 /* Add.png in Resources */,
+				88ACE1CC15AC0B9A00EB2CD8 /* glossy_black_button_icon_079.png in Resources */,
+				88ACE1D015AC104900EB2CD8 /* adb.JPG in Resources */,
+				88ACE1D115AC104900EB2CD8 /* ajm.jpg in Resources */,
+				011082AC19B3287E009619E5 /* Entitlements.plist in Resources */,
+				011082A919B32840009619E5 /* deleteicon.JPG in Resources */,
+				88ACE1D215AC104900EB2CD8 /* dxb.JPG in Resources */,
+				88ACE1D415AC105700EB2CD8 /* fuj.JPG in Resources */,
+				88ACE1D615AC106100EB2CD8 /* rak.JPG in Resources */,
+				88ACE1D815AC106E00EB2CD8 /* shj.JPG in Resources */,
+				88ACE1DA15AC107C00EB2CD8 /* uaq.JPG in Resources */,
+				88AA279C15AECDA400161D24 /* NoPhoto2.png in Resources */,
+				6382703215B6DD29007FCF9F /* newlogin.png in Resources */,
+				6382703415B6DD36007FCF9F /* pwdbg.png in Resources */,
+				0110829519B32803009619E5 /* memberPlanView.xib in Resources */,
+				638415FF15CC06D5009DD267 /* memberBaseController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8888A62F15A03D170017BD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8888A64415A03D170017BD20 /* main.m in Sources */,
+				8888A64815A03D170017BD20 /* AppDelegate.m in Sources */,
+				0110829819B32803009619E5 /* memberRefundsList.m in Sources */,
+				0110829D19B32803009619E5 /* membrPlanEntry.m in Sources */,
+				8888A66815A04E430017BD20 /* baseSearchForm.m in Sources */,
+				0110829919B32803009619E5 /* memberTransaction.m in Sources */,
+				8888A67215A04F040017BD20 /* memberSearch.m in Sources */,
+				0110826019B327F2009619E5 /* contractSearch.m in Sources */,
+				8888A67615A059250017BD20 /* gymWSProxy.m in Sources */,
+				8888A68615A065C00017BD20 /* login.m in Sources */,
+				8888A68815A065C00017BD20 /* signIn.m in Sources */,
+				0110829119B32803009619E5 /* memberPlanObjects.m in Sources */,
+				8888A68A15A065C00017BD20 /* signOut.m in Sources */,
+				8888A6A715A2B56C0017BD20 /* memberController.m in Sources */,
+				8888A6AC15A2B6390017BD20 /* memberTransController.m in Sources */,
+				8888A6C815A31BB00017BD20 /* memberBaseController.m in Sources */,
+				0110829E19B32803009619E5 /* memNotesObjects.m in Sources */,
+				0110828E19B32803009619E5 /* memberNotesEntry.m in Sources */,
+				8888A6CB15A4265C0017BD20 /* memberView.m in Sources */,
+				8888A6CE15A4287B0017BD20 /* memberObjects.m in Sources */,
+				88ACE1C615ABE45500EB2CD8 /* emirateSearch.m in Sources */,
+				88ACE1E115AC33B100EB2CD8 /* planSearch.m in Sources */,
+				0110829019B32803009619E5 /* memberPlanEntry.m in Sources */,
+				88ACE1E415AC477300EB2CD8 /* nationalitySearch.m in Sources */,
+				0110828C19B32803009619E5 /* feesDataEntry.m in Sources */,
+				88AA279A15AEAA4200161D24 /* Base64.m in Sources */,
+				0110829319B32803009619E5 /* memberPlansList.m in Sources */,
+				6382702B15B6BC5E007FCF9F /* locationSearch.m in Sources */,
+				0110825E19B327F2009619E5 /* bankSearch.m in Sources */,
+				0110826219B327F2009619E5 /* notesTypeSearch.m in Sources */,
+				011082A019B32803009619E5 /* payScheduleEntry.m in Sources */,
+				0110829219B32803009619E5 /* memberPlans.m in Sources */,
+				0110828F19B32803009619E5 /* memberNotesList.m in Sources */,
+				0110829419B32803009619E5 /* memberPlanView.m in Sources */,
+				0110828D19B32803009619E5 /* memberNotes.m in Sources */,
+				0110829B19B32803009619E5 /* memberTransList.m in Sources */,
+				6385C1DC15CABC2C00BCF3A5 /* memberRefundEntry.m in Sources */,
+				0110829F19B32803009619E5 /* memTransObjects.m in Sources */,
+				0110829719B32803009619E5 /* memberRefundObjects.m in Sources */,
+				6384160315CC0C2E009DD267 /* memberRefunds.m in Sources */,
+				0110829C19B32803009619E5 /* memberTransView.m in Sources */,
+				0110826119B327F2009619E5 /* feesSearch.m in Sources */,
+				0110829A19B32803009619E5 /* memberTransactionPopover.m in Sources */,
+				0110825F19B327F2009619E5 /* billCycleSearch.m in Sources */,
+				0110829619B32803009619E5 /* memberProfile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8888A64015A03D170017BD20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8888A64115A03D170017BD20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63875FB315C6A96200A01AC8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		63875FB415C6A96200A01AC8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Al Ahli Holding Group";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Al Ahli Holding Group";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPMMS_iPad/iPMMS_iPad-Prefix.pch";
+				INFOPLIST_FILE = "iPMMS_iPad/iPMMS_iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1ABA0860-9B6A-444C-AF7B-BBD34DC8CD7A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1ABA0860-9B6A-444C-AF7B-BBD34DC8CD7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		8888A65515A03D170017BD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8888A65615A03D170017BD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8888A65815A03D170017BD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPMMS_iPad/iPMMS_iPad-Prefix.pch";
+				INFOPLIST_FILE = "iPMMS_iPad/iPMMS_iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8888A65915A03D170017BD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPMMS_iPad/iPMMS_iPad-Prefix.pch";
+				INFOPLIST_FILE = "iPMMS_iPad/iPMMS_iPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8888A62D15A03D170017BD20 /* Build configuration list for PBXProject "iPMMS_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8888A65515A03D170017BD20 /* Debug */,
+				8888A65615A03D170017BD20 /* Release */,
+				63875FB315C6A96200A01AC8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8888A65715A03D170017BD20 /* Build configuration list for PBXNativeTarget "iPMMS_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8888A65815A03D170017BD20 /* Debug */,
+				8888A65915A03D170017BD20 /* Release */,
+				63875FB415C6A96200A01AC8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8888A62A15A03D170017BD20 /* Project object */;
+}
